@@ -1,0 +1,15 @@
+# Do not commit evidence, backups or sensitive case data
+*.json
+!package.json
+private/
+evidence/
+backups/
+*.HEIC
+*.heic
+*.jpg
+*.jpeg
+*.png
+*.mov
+.DS_Store
+patch.py
+update.py
